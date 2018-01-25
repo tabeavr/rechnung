@@ -88,13 +88,12 @@ int main(int argc, char ** argv){
 	gesamt.open("Rechnung.csv");
 	gesamt << gesamtPreis << " " << gesamtPreis*0.19 << " " << gesamtPreis*1.19;
 	gesamt.close();
-	}
+	
 	
 	std::string befehl{ "xelatex --jobname="};
-	std::cout << befehl <<;
-	befehl.append(vm.count["n"].as<std::string>());
+	befehl.append(vm.count["k"].as<std::string>());
 	befehl.append(" '\\def\\name{");
-	befehl.append(vm.count["n"].as<std::string>());
+	befehl.append(vm.count["k"].as<std::string>());
 	befehl.append("} \\def\\strasse{");
 	befehl.append(vm.count["s"].as<std::string>());
 	befehl.append("} \\def\\ort{");
