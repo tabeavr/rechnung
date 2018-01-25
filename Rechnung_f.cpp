@@ -91,6 +91,7 @@ int main(int argc, char ** argv){
 	}
 	
 	std::string befehl{ "xelatex --jobname="};
+	std::cout << befehl <<;
 	befehl.append(vm.count["n"].as<std::string>());
 	befehl.append(" '\\def\\name{");
 	befehl.append(vm.count["n"].as<std::string>());
