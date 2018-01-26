@@ -28,7 +28,8 @@ subject = beforeopening
 \pgfplotstableset{
 precision = 2,
 column type = r, %alles rechtsbündig aufschreiben
-string type
+zerofill
+%string type
 }
 
 \input{Absender.tex}
@@ -63,7 +64,8 @@ every last row/.style={
 %Tabelle mit Endbeträgen
 
 \pgfplotstabletypeset[
-%col space = &,
+row sep = &,
+col sep = space,
 assign column name/.style={
 	/pgfplots/table/column name={\textbf{#1}}}
 	,

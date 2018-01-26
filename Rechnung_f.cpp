@@ -88,7 +88,7 @@ int main(int argc, char * argv[]){
 	//Endwerte der Rechnung in Datei schreiben
 	std::ofstream gesamt;
 	gesamt.open("Rechnung.csv");
-	gesamt << gesamtPreis << " " << gesamtPreis*0.19 << " " << gesamtPreis*1.19;
+	gesamt << "Netto" << gesamtPreis << " & zzgl. MwSt von 19%" << gesamtPreis*0.19 << " & Gesamtpreis" << gesamtPreis*1.19;
 	gesamt.close();
 	
 	
