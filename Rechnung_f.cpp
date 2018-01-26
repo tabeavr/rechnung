@@ -1,10 +1,10 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <limits>
-#include <string_view>
-#include <iomanip>
-#include <stdio.h>
+//#include <limits>
+//#include <string_view>
+//#include <iomanip>
+//#include <stdio.h>
 #include <boost/program_options.hpp>
 #include <unistd.h>
 namespace po = boost::program_options;
@@ -49,12 +49,12 @@ void produktDateivorbereiten(){
 	std::cout << "es kann losgehen" << std::endl;
 }
 
-int main(int argc, char ** argv){
+int main(int argc, char * argv[]){
 	po::options_description desc("Mögliche Optionen");
 
 	desc.add_options()
 		("help", "Display help message")
-		("k,kunde",po::value<std::string>(), "Name des Kunden")
+		("k",po::value<std::string>(), "Name des Kunden")
 		("o, ort", po::value<std::string>(), "PLZ und Ort")
 		("s, strasse", po::value<std::string>(), "Straße und Hausnummer")
 		("fn, firma", po::value<std::string>(), "Firnemnname")
@@ -91,31 +91,31 @@ int main(int argc, char ** argv){
 	
 	
 	std::string befehl{ "xelatex --jobname="};
-	befehl.append(vm.count["k"].as<std::string>());
+	befehl.append(vm["k"].as<std::string>());
 	befehl.append(" '\\def\\name{");
-	befehl.append(vm.count["k"].as<std::string>());
+	befehl.append(vm["k"].as<std::string>());
 	befehl.append("} \\def\\strasse{");
-	befehl.append(vm.count["s"].as<std::string>());
+	befehl.append(vm["s"].as<std::string>());
 	befehl.append("} \\def\\ort{");
-	befehl.append(vm.count["o"].as<std::string>());
+	befehl.append(vm["o"].as<std::string>());
 	befehl.append("}");
-	if(vm.count["fs"]&&vm.count["fo"]&&vm.count["fn"]){
+	if(vm.count("fs")&&vm.count("fo")&&vm.count("fn")){
 		befehl.append(" \\def\\firmenname{");
-		befehl.append(vm.count["fs"].as<std::string>());
+		befehl.append(vm["fs"].as<std::string>());
 		befehl.append("} \\def\\firmenort{");
-		befehl.append(vm.count["fo"].as<std::string>());
+		befehl.append(vm["fo"].as<std::string>());
 		befehl.append("} \\def\\firmenstrasse{");
-		befehl.append(vm.count["fs"].as<std::string>());
+		befehl.append(vm["fs"].as<std::string>());
 		befehl.append("}");
 	}
 	befehl.append(" \\input{RechnungsTemplate.tex}'");
-	char * dir ="~/Rechnung";
+	const char * dir ="~/Rechnung";
 	int wechsel_erfolg;
 	wechsel_erfolg = chdir(dir);
 	if (0 != wechsel_erfolg){
 		return 1;
 	}
-	char * command = befehl.c_str();
+	const char * command = befehl.c_str();
 	std::system(command);
 
     	return 0;
