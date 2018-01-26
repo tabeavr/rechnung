@@ -1,0 +1,80 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Dieses Dokument benötigt folgende Dateien im selben Ordern:
+%%Produkte.csv und Rechnung.csv
+%%Trennung
+%%Absender.tex, die alle Informationen über den Absender enthält.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{scrlttr2}
+\KOMAoptions{
+firsthead = on,
+backaddress=on,
+foldmarks=off,
+subject = beforeopening
+}
+
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{graphics}
+
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat = newest}
+
+\pgfplotstableset{
+precision = 2,
+column type = r, %alles rechtsbündig aufschreiben
+string type
+}
+
+\input{Absender.tex}
+
+\begin{document}
+
+\LoadLetterOption{DIN}
+\makeatletter
+\@addtoplength{backaddrheight}{-0.5cm}
+\@addtoplength{toaddrvpos}{0cm}
+\@setplength{toaddrindent}{0.2cm}
+\makeatother
+\begin{letter}{%
+\empfaenger
+}
+
+\opening{}
+
+%Tabelle, die Rechnungsposten enthalten soll
+\pgfplotstabletypeset[
+col sep = space,
+read comma as period = true,
+assign column name/.style={
+	/pgfplots/table/column name={\textbf{#1}}}
+	,
+every head row/.style= {
+	after row = \toprule},
+every last row/.style={
+	 after row =\bottomrule}
+]{Produkte.csv}
+
+%Tabelle mit Endbeträgen
+
+\pgfplotstabletypeset[
+%col space = &,
+assign column name/.style={
+	/pgfplots/table/column name={\textbf{#1}}}
+	,
+every head row/.style= {
+	after row = \toprule},
+every last row/.style={
+	 after row =\bottomrule}
+]{Rechnung.csv}
+
+%Zahlungsmethode
+
+%Fußzeile
+\end{letter}
+\end{document}

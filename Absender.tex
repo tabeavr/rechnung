@@ -1,0 +1,59 @@
+%%Sender
+\setkomavar{fromname}{Auto--Intern GmbH}
+\setkomavar{fromaddress}{Herner Str.299\\Gebäude B29\\44809 Bochum}
+\setkomavar{fromphone}{+49\, (0)234\, 934\, 511\, 60}
+\setkomavar{fromemail}{g}
+\setkomavar{fromurl}{g}
+\setkomavar{signature}{g}
+\setkomavar{place}{Bochum}
+\setkomavar{date}{\today}
+\setkomavar{fromlogo}{\includegraphics[width =0.5\textwidth]{logo.jpg}}
+\setkomavar{subject}{\textbf{\large{Rechnungsnr.\, }}}
+
+%Trennzeichen für die Rücksendeadresee
+\setkomavar{backaddressseparator}{ - }
+
+\newcommand{\absender}{\small{
+\begin{tabular}{l} %so ist alles linksbündig, wird aber rechts dargestellt
+\textbf{\usekomavar{fromname}}\\
+\usekomavar{fromaddress}\\
+\rule{0pt}{1.2\baselineskip} \\
+\usekomavar{fromphone}\\
+\usekomavar{fromemail}\\
+\usekomavar{fromurl}\\
+\end{tabular}
+}
+}
+
+\setkomavar{firsthead}[]{%
+\usekomavar{fromlogo}
+\baselineskip
+\begin{flushright}
+\absender
+\end{flushright}
+}
+
+%%Empfänger
+\ifdefined\firma
+  \newcommand{\empfaenger}{\small{
+\name\\
+\strasse\\
+\ort\\
+\smallskip
+\textbf{Lieferadresse:}\\
+\textbf{\firma}\\
+\firmastrasse\\
+\firmaortt\\
+\medskip
+GERMANY
+}
+}
+\else
+  \newcommand{\empfaenger}{\small{
+\name\\
+\strasse\\
+\ort\\
+GERMANY
+}
+}
+\fi
