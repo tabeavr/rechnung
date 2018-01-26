@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <experimental/filesystem> //Um Verzeichnis abzurufen
+#include <stdlib.h>
 #include <string>
 //#include <limits>
 //#include <string_view>
@@ -52,7 +53,7 @@ void produktDateivorbereiten(){
 
 int main(int argc, char * argv[]){
 	po::options_description desc("Mögliche Optionen");
-	std::cout << "ls \n" ;
+	std::system("ls");
 	desc.add_options()
 		("help", "Display help message")
 		("k",po::value<std::string>(), "Name des Kunden")

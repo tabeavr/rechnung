@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.1.12)  26 JAN 2018 17:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.1.12)  26 JAN 2018 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**RechnungsTemplate.tex
-(./RechnungsTemplate.tex
+**/home/tibtab/Rechnung/final/RechnungsTemplate.tex
+(/home/tibtab/Rechnung/final/RechnungsTemplate.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 8 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlttr2.cls
@@ -820,10 +820,10 @@ Subject: before opening
 PGFPlots: reading {Produkte.csv}
 
 ! Package pgfplots Error: Table 'Produkte.csv' appears to have too many columns
- in line 1: Ignoring '20.9;'. PGFPlots found that the number of columns is larg
-er than the previously determined number of columns. Please verify that every c
-ell entry is separated correctly (use braces {<cell entry>} if necessary. Also 
-verify that column names are plain ASCII.). This error is not critical.
+ in line 1: Ignoring '400.6;'. PGFPlots found that the number of columns is lar
+ger than the previously determined number of columns. Please verify that every 
+cell entry is separated correctly (use braces {<cell entry>} if necessary. Also
+ verify that column names are plain ASCII.). This error is not critical.
 
 See the pgfplots package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -839,12 +839,12 @@ PGFPlots: reading {Rechnung.csv}
 
 ] (./RechnungsTemplate.aux) ) 
 Here is how much of TeX's memory you used:
- 22710 strings out of 495531
- 592227 string characters out of 6185104
+ 22711 strings out of 495531
+ 592309 string characters out of 6185104
  816374 words of memory out of 5000000
  25595 multiletter control sequences out of 15000+600000
  30126 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 82i,12n,87p,743b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,12n,87p,771b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on RechnungsTemplate.pdf (1 page).
