@@ -117,6 +117,7 @@ int main(int argc, char * argv[]){
 	}
 	const char * command = befehl.c_str();
 	std::system(command);
+	std::system("ls");
 
     	return 0;
 }
