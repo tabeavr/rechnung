@@ -15,6 +15,7 @@ subject = beforeopening
 \usepackage[ngerman]{babel}
 \usepackage{lmodern}
 
+
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{colortbl}
@@ -25,16 +26,19 @@ subject = beforeopening
 \usepackage{pgfplotstable}
 \pgfplotsset{compat = newest}
 
+\pgfkeys{/pgf/number format/.cd,fixed,precision=2}
 \pgfplotstableset{
-precision = 2,
+precision=2,
 column type = r, %alles rechtsbündig aufschreiben
-zerofill
-%string type
+fixed,
+ zerofill,
 }
+
 
 \input{Absender.tex}
 
 \begin{document}
+\relax
 
 \LoadLetterOption{DIN}
 \makeatletter
@@ -50,8 +54,13 @@ zerofill
 
 %Tabelle, die Rechnungsposten enthalten soll
 \pgfplotstabletypeset[
+begin table={\begin{tabularx}{\textwidth}{c X c c c}},
+end table={\end{tabularx}},
 col sep = space,
 read comma as period = true,
+columns={Position, Posten, Anzahl, Einzelpreis, Gesamtpreis},
+columns/Posten/.style={string type, width=3cm},
+columns/Position/.style={precision = 0},
 assign column name/.style={
 	/pgfplots/table/column name={\textbf{#1}}}
 	,
@@ -62,18 +71,28 @@ every last row/.style={
 ]{Produkte.csv}
 
 %Tabelle mit Endbeträgen
-
+\raggedleft
+\vspace*{2cm}
+%\begin{minipage}[t][1.5cm][b]{0.4\textwidth}
 \pgfplotstabletypeset[
-row sep = &,
-col sep = space,
+col sep =&,
+columns={bez, betrag},
+columns/bez/.style={string type},
+columns/betrag/.style={precision = 2},
 assign column name/.style={
 	/pgfplots/table/column name={\textbf{#1}}}
 	,
-every head row/.style= {
+every head row/.style= {output empty row},
+every first row/.style ={
 	after row = \toprule},
+last head row/.style = {
+	int type, precision = 2},
 every last row/.style={
+	%{\textbf{#1}}
 	 after row =\bottomrule}
 ]{Rechnung.csv}
+
+%\end{minipage}
 
 %Zahlungsmethode
 
