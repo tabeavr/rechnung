@@ -7,12 +7,11 @@
 \documentclass[]{scrlttr2}
 \KOMAoptions{
 firsthead = on,
-footspeline=on,
 backaddress=on,
 foldmarks=off,
 subject = beforeopening
 }
-
+\errorcontextlines 10000
 \usepackage[ngerman]{babel}
 \usepackage{lmodern}
 
@@ -21,6 +20,7 @@ subject = beforeopening
 \usepackage{array}
 \usepackage{color,colortbl}
 \usepackage{graphics}
+\usepackage{multirow}
 
 \usepackage{array}
 \usepackage{tabularx}
@@ -38,19 +38,16 @@ fixed,
 
 \input{Absender.tex}
 
-\begin{document}
+\begin{document}{
 \relax
 
-\LoadLetterOption{DIN}
+%\LoadLetterOption{DIN}
 \makeatletter
-\@addtoplength{backaddrheight}{-0.5cm}
+\@addtoplength{backaddrheight}{0cm}
 \@addtoplength{toaddrvpos}{0cm}
 \@setplength{toaddrindent}{0.2cm}
 \makeatother
-\begin{letter}{%
-\empfaenger
-}
-
+\begin{letter}{\empfaenger}
 \opening{}
 
 %Tabelle, die Rechnungsposten enthalten soll
@@ -58,10 +55,10 @@ fixed,
 begin table={\begin{tabularx}{\textwidth}{lXcrr}},
 end table={\end{tabularx}},
 col sep = space,
-row sep = \\,
+%row sep = \\,
 %read comma as period = true,
 columns={Position, Posten, Anzahl, Einzelpreis, Gesamtpreis},
-columns/Posten/.style={string type, width=3cm},
+columns/Posten/.style={string type},
 columns/Position/.style={precision=0},
 columns/Anzahl/.style={precision=0},
 assign column name/.style={
@@ -102,6 +99,5 @@ every last row/.style={
 
 %Zahlungsmethode
 
-%Fußzeile
-\end{letter}
+\end{letter}}
 \end{document}

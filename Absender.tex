@@ -1,5 +1,9 @@
 %%Sender
-\setkomavar{fromname}{Auto--Intern GmbH}
+\newkomavar{stdid}
+\setkomavar{stdid}{UST--ID:\\DE310784879} %%SteuerID
+\newkomavar{fromname2}
+\setkomavar{fromname2}{UG (haftungsbeschränkt)}
+\setkomavar{fromname}{CCD Car Diagnostics}
 \setkomavar{fromaddress}{Herner Str.299\\Gebäude B29\\44809 Bochum}
 \setkomavar{fromphone}{+49\, (0)234\, 934\, 511\, 60}
 \setkomavar{fromemail}{info@car-diagnostics.eu}
@@ -9,20 +13,24 @@
 \setkomavar{date}{\today}
 \setkomavar{fromlogo}{\includegraphics[width =0.5\textwidth]{logo.jpg}}
 \setkomavar{subject}{\textbf{\large{Rechnungsnr.\, }}}
+\newkomavar{bankverbindung}
+\setkomavar{bankverbindung}{Sparkasse Bochum\\SWIFT/BIC--Code: WELADED1BOC\\IBAN:DE42\, 4305\, 0001\, 6047\, 84}
+
 
 %Trennzeichen für die Rücksendeadresee
 \setkomavar{backaddressseparator}{ - }
+\setkomavar{backaddress}{\usekomavar{fromaddress}}
 
-\newcommand{\absender}{\small{
+\newcommand{\absender}[0]{\small{
 \begin{tabular}{l} %so ist alles linksbündig, wird aber rechts dargestellt
 \textbf{\usekomavar{fromname}}\\
+\textbf{\usekomavar{fromname2}}\\
 \usekomavar{fromaddress}\\
 \rule{0pt}{1.2\baselineskip} \\
 \usekomavar{fromphone}\\
 \usekomavar{fromemail}\\
 \usekomavar{fromurl}\\
-\end{tabular}
-}
+\end{tabular}}
 }
 
 %%Kopzeile
@@ -36,25 +44,32 @@
 
 
 %%Fußzeile
-
-
+\setkomavar{firstfoot}[]{%
+\footnotesize{
+\begin{tabularx}{xxxx}
+\usekomavar{fromname} \usekomavar{fromname2}&\multirow{4}{*}{\usekomavar{bankverbindung}}&AGB&Geschäftsführer\\
+\multirow{2}{*}{\usekomavar{stdid}}&Gerichtsstand ist Bochum&Jelena Oblogina\\
+Erfüllungsort Bochum& \\
+&Gelieferte Ware bleibt bis zur vollständigen Bezahlung unser Eigentum& \\
+\end{tabularx}
+}
 %%Empfänger
 \ifdefined\firma
-  \newcommand{\empfaenger}{\small{
-\name\\
-\strasse\\
-\ort\\
+\newcommand{\empfaenger}{\small{
+\name \\
+\strasse \\
+\ort \\
 \smallskip
 \textbf{Lieferadresse:}\\
 \textbf{\firma}\\
-\firmastrasse\\
-\firmaortt\\
+\firmastrasse \\
+\firmaort \\
 \medskip
 GERMANY
 }
 }
 \else
-  \newcommand{\empfaenger}{\small{
+ \newcommand{\empfaenger}{\small{
 name\\
 strasse\\
 ort\\
