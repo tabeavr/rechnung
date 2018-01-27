@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.11.2)  26 JAN 2018 19:21
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.11.2)  27 JAN 2018 10:24
 entering extended mode
 **./RechnungsTemplate.tex
 (RechnungsTemplate.tex
@@ -64,6 +64,19 @@ Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 8.
 (C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\DIN.lco
 File: DIN.lco 2017/09/07 v3.24 KOMA-Script letter-class-option
 )
+
+! Package scrbase Error: unknown option ` footspeline=on'.
+
+See the scrbase package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 }
+      
+No one of the members of family `KOMA'
+can handle option `footspeline'.
+So it cannot be set to value `on'.
+
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2017/05/19 3.10 The Babel package
 
@@ -151,9 +164,6 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip46
 \backup@length=\skip47
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
-Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
@@ -166,6 +176,8 @@ Package color Info: Driver file: xetex.def on input line 147.
 File: xetex.def 2016/07/11 v4.10 LaTeX color/graphics driver for XeTeX (L3/RRM/
 JK)
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks16
 \minrowclearance=\skip48
 )
@@ -609,92 +621,92 @@ tex"
 pe.code.tex"))) (Absender.tex) (RechnungsTemplate.aux)
 \openout1 = `RechnungsTemplate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 Class scrlttr2 Info: no date found for language `american'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `australien'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `british'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `canadian'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `newzealand'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `UKenglish'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `ukenglish'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `USenglish'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `usenglish'
-(scrlttr2)           --> skipped on input line 40.
-Package scrbase Info: activating ngerman \yourrefname on input line 40.
-Package scrbase Info: activating ngerman \yourmailname on input line 40.
-Package scrbase Info: activating ngerman \myrefname on input line 40.
-Package scrbase Info: activating ngerman \customername on input line 40.
-Package scrbase Info: activating ngerman \invoicename on input line 40.
-Package scrbase Info: activating ngerman \subjectname on input line 40.
-Package scrbase Info: activating ngerman \headfromname on input line 40.
-Package scrbase Info: activating ngerman \datename on input line 40.
-Package scrbase Info: activating ngerman \phonename on input line 40.
-Package scrbase Info: activating ngerman \mobilephonename on input line 40.
-Package scrbase Info: activating ngerman \faxname on input line 40.
-Package scrbase Info: activating ngerman \emailname on input line 40.
-Package scrbase Info: activating ngerman \wwwname on input line 40.
-Package scrbase Info: activating ngerman \bankname on input line 40.
+(scrlttr2)           --> skipped on input line 41.
+Package scrbase Info: activating ngerman \yourrefname on input line 41.
+Package scrbase Info: activating ngerman \yourmailname on input line 41.
+Package scrbase Info: activating ngerman \myrefname on input line 41.
+Package scrbase Info: activating ngerman \customername on input line 41.
+Package scrbase Info: activating ngerman \invoicename on input line 41.
+Package scrbase Info: activating ngerman \subjectname on input line 41.
+Package scrbase Info: activating ngerman \headfromname on input line 41.
+Package scrbase Info: activating ngerman \datename on input line 41.
+Package scrbase Info: activating ngerman \phonename on input line 41.
+Package scrbase Info: activating ngerman \mobilephonename on input line 41.
+Package scrbase Info: activating ngerman \faxname on input line 41.
+Package scrbase Info: activating ngerman \emailname on input line 41.
+Package scrbase Info: activating ngerman \wwwname on input line 41.
+Package scrbase Info: activating ngerman \bankname on input line 41.
 Class scrlttr2 Info: no date found for language `german'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `austrian'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `naustrian'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `swissgerman'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `nswissgerman'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `acadian'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `canadien'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `francais'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `french'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `italian'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `spanish'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `croatian'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `dutch'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `finnish'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `norsk'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `swedish'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `polish'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `czech'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: no date found for language `slovak'
-(scrlttr2)           --> skipped on input line 40.
+(scrlttr2)           --> skipped on input line 41.
 Class scrlttr2 Info: trying to activate captions and date
-(scrlttr2)           of language `ngerman' on input line 40.
+(scrlttr2)           of language `ngerman' on input line 41.
 Class scrlttr2 Info: used language is `ngerman'.
 (scrlttr2)           Supported languages are: `english', `UKenglish',
 (scrlttr2)           `ukenglish', `british', `american', `USenglish',
@@ -704,13 +716,13 @@ Class scrlttr2 Info: used language is `ngerman'.
 (scrlttr2)           `acadian', `canadien', `francais', `french', 
 (scrlttr2)           `dutch', `italian', `spanish', `polish',
 (scrlttr2)           `croatian', `finnish', `norsk', `swedish',
-(scrlttr2)           `czech', `slovak' on input line 40.
+(scrlttr2)           `czech', `slovak' on input line 41.
 
 ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 43.
+Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 44.
 (C:\Users\tabea\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\DIN.lco
 File: DIN.lco 2017/09/07 v3.24 KOMA-Script letter-class-option
 )
@@ -721,7 +733,7 @@ File: logo.jpg Graphic file (type QTm)
 ! Missing number, treated as zero.
 <to be read again> 
                    \def 
-l.53 \opening{}
+l.54 \opening{}
                
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -730,7 +742,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \def 
-l.53 \opening{}
+l.54 \opening{}
                
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -739,35 +751,35 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 53.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 54.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 53.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 54.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 54.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 53.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 54.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 53.
+(Font)              <10.95> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 53.
+(Font)              <8> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 53.
+(Font)              <6> on input line 54.
 
-Overfull \vbox (86.96205pt too high) detected at line 53
+Overfull \vbox (86.96205pt too high) detected at line 54
  []
 
 File: logo.jpg Graphic file (type QTm)
@@ -775,7 +787,7 @@ File: logo.jpg Graphic file (type QTm)
 ! Missing number, treated as zero.
 <to be read again> 
                    \def 
-l.53 \opening{}
+l.54 \opening{}
                
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -784,7 +796,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \def 
-l.53 \opening{}
+l.54 \opening{}
                
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -799,19 +811,19 @@ Class scrlttr2 Warning: head of first page is 98.96205pt too high.
 (scrlttr2)              or you have to define a smaller
 (scrlttr2)              head of first page using \setkomavar.
 (scrlttr2)              Because of this too high head of first page
-(scrlttr2)              you've got an overfull \vbox message on input line 53.
+(scrlttr2)              you've got an overfull \vbox message on input line 54.
 
 Foot of first page
 Address (backaddress, addressee)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 53.
+(Font)              <12> on input line 54.
 
-Overfull \hbox (4.9436pt too wide) in paragraph at lines 53--53
+Overfull \hbox (4.9436pt too wide) in paragraph at lines 54--54
 $[]$ 
  []
 
 
-Overfull \hbox (4.9436pt too wide) in paragraph at lines 53--53
+Overfull \hbox (4.9436pt too wide) in paragraph at lines 54--54
 $[]$ 
  []
 
@@ -821,16 +833,31 @@ Class scrlttr2 Warning: backaddress is 11.49988pt too high.
 (scrlttr2)              or you have to define a smaller
 (scrlttr2)              backaddress using \setkomavar.
 (scrlttr2)              Because of this too high backaddress
-(scrlttr2)              you've got an overfull \vbox message on input line 53.
+(scrlttr2)              you've got an overfull \vbox message on input line 54.
 
 
-Overfull \hbox (4.9436pt too wide) in paragraph at lines 53--53
+Overfull \hbox (4.9436pt too wide) in paragraph at lines 54--54
 $[]$ 
  []
 
 Location field: empty
 Title: no
 Subject: before opening
+
+! Package pgfplots Error: Sorry, the choice 'row sep=crcr' is currently only av
+ailable for inline tables, not for external files.
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ]{Produkte.csv}
+                    
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
 PGFPlots: reading {Produkte.csv}
 
 ! Package pgfkeys Error: I do not know the key '/pgfplots/table/create col/widt
@@ -841,12 +868,9 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ]{Produkte.csv}
+l.76 ]{Produkte.csv}
                     
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
+(That was another \errmessage.)
 
 PGFPlots: reading {Rechnung.csv}
 [1
@@ -855,10 +879,10 @@ PGFPlots: reading {Rechnung.csv}
 
 ] (RechnungsTemplate.aux) ) 
 Here is how much of TeX's memory you used:
- 23080 strings out of 427834
- 599342 string characters out of 3152470
+ 23082 strings out of 427834
+ 599425 string characters out of 3152470
  859349 words of memory out of 3000000
- 26669 multiletter control sequences out of 15000+200000
+ 26671 multiletter control sequences out of 15000+200000
  18326 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  82i,12n,128p,745b,479s stack positions out of 5000i,500n,10000p,200000b,50000s

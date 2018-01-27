@@ -7,6 +7,7 @@
 \documentclass[]{scrlttr2}
 \KOMAoptions{
 firsthead = on,
+footspeline=on,
 backaddress=on,
 foldmarks=off,
 subject = beforeopening
@@ -18,7 +19,7 @@ subject = beforeopening
 
 \usepackage{booktabs}
 \usepackage{array}
-\usepackage{colortbl}
+\usepackage{color,colortbl}
 \usepackage{graphics}
 
 \usepackage{array}
@@ -26,10 +27,10 @@ subject = beforeopening
 \usepackage{pgfplotstable}
 \pgfplotsset{compat = newest}
 
-\pgfkeys{/pgf/number format/.cd,fixed,precision=2}
+
 \pgfplotstableset{
 precision=2,
-column type = r, %alles rechtsbündig aufschreiben
+column type = , %wird von tabularx gemacht
 fixed,
  zerofill,
 }
@@ -54,29 +55,35 @@ fixed,
 
 %Tabelle, die Rechnungsposten enthalten soll
 \pgfplotstabletypeset[
-begin table={\begin{tabularx}{\textwidth}{c X c c c}},
+begin table={\begin{tabularx}{\textwidth}{lXcrr}},
 end table={\end{tabularx}},
 col sep = space,
-read comma as period = true,
+row sep = \\,
+%read comma as period = true,
 columns={Position, Posten, Anzahl, Einzelpreis, Gesamtpreis},
 columns/Posten/.style={string type, width=3cm},
-columns/Position/.style={precision = 0},
+columns/Position/.style={precision=0},
+columns/Anzahl/.style={precision=0},
 assign column name/.style={
 	/pgfplots/table/column name={\textbf{#1}}}
 	,
 every head row/.style= {
 	after row = \toprule},
 every last row/.style={
-	 after row =\bottomrule}
+	 after row =\bottomrule},
+every odd row/.style ={
+	before row={\rowcolor{lightgray}}}
 ]{Produkte.csv}
 
 %Tabelle mit Endbeträgen
 \raggedleft
-\vspace*{2cm}
-%\begin{minipage}[t][1.5cm][b]{0.4\textwidth}
+\vspace*{1.5cm} %%Abstand zwischen Rechnungsposten und Endsumme
+
 \pgfplotstabletypeset[
 col sep =&,
 columns={bez, betrag},
+begin table={\begin{tabularx}{0.35\textwidth}{Xr}},
+end table={\end{tabularx}},
 columns/bez/.style={string type},
 columns/betrag/.style={precision = 2},
 assign column name/.style={
@@ -92,7 +99,6 @@ every last row/.style={
 	 after row =\bottomrule}
 ]{Rechnung.csv}
 
-%\end{minipage}
 
 %Zahlungsmethode
 
