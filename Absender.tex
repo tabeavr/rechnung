@@ -44,14 +44,19 @@
 
 
 %%Fußzeile
+\setlength{\tabcolsep}{0.2cm}
+
 \setkomavar{firstfoot}[]{%
-\footnotesize{
-\begin{tabularx}{xxxx}
-\usekomavar{fromname} \usekomavar{fromname2}&\multirow{4}{*}{\usekomavar{bankverbindung}}&AGB&Geschäftsführer\\
-\multirow{2}{*}{\usekomavar{stdid}}&Gerichtsstand ist Bochum&Jelena Oblogina\\
-Erfüllungsort Bochum& \\
-&Gelieferte Ware bleibt bis zur vollständigen Bezahlung unser Eigentum& \\
+\scriptsize{
+\begin{tabularx}{\textwidth}{llll}
+\multicolumn{4}{l}{\normalsize{Gelieferte Ware bleibt bis zur vollständigen Bezahlung unser Eigentum.}}\\
+\multicolumn{4}{l}{ }\\
+CCD Car Diagnostics &Bankverbindung&AGB&Geschäftsführer\\
+UG (haftungsbeschränkt)&Sparkasse Bochum&Gerichtsstand ist Bochum&Jelena Oblogina\\
+Steuer--Nr.&SWIFT/BIC--Code: WELADED1BOC&Erfüllungsort Bochum& \\
+UST--ID: DE310784879 &IBAN: DE42\, 4305\, 0001\, 0001\, 6047\, 84& & \\
 \end{tabularx}
+}
 }
 %%Empfänger
 \ifdefined\firma

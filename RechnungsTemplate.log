@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.11.2)  27 JAN 2018 15:16
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.11.2)  28 JAN 2018 17:16
 entering extended mode
 **./RechnungsTemplate.tex
 (RechnungsTemplate.tex
@@ -749,7 +749,7 @@ File: logo.jpg Graphic file (type QTm)
 
 \opening ...dent \@foldmarks \@firstheadfootfield 
                                                   \@addrfield \@locfield \if...
-l.51 \opening{}
+l.52 \opening{}
                
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -784,7 +784,7 @@ look up `weird error' in the index to The TeXbook.)
 
 \opening ...dent \@foldmarks \@firstheadfootfield 
                                                   \@addrfield \@locfield \if...
-l.51 \opening{}
+l.52 \opening{}
                
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -793,35 +793,35 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 52.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 51.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 52.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 51.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 52.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 51.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 52.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 51.
+(Font)              <10.95> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 51.
+(Font)              <8> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 51.
+(Font)              <6> on input line 52.
 
-Overfull \vbox (100.56204pt too high) detected at line 51
+Overfull \vbox (100.56204pt too high) detected at line 52
  []
 
 File: logo.jpg Graphic file (type QTm)
@@ -855,7 +855,7 @@ File: logo.jpg Graphic file (type QTm)
 
 \opening ...dent \@foldmarks \@firstheadfootfield 
                                                   \@addrfield \@locfield \if...
-l.51 \opening{}
+l.52 \opening{}
                
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -890,7 +890,7 @@ look up `weird error' in the index to The TeXbook.)
 
 \opening ...dent \@foldmarks \@firstheadfootfield 
                                                   \@addrfield \@locfield \if...
-l.51 \opening{}
+l.52 \opening{}
                
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -905,1002 +905,27 @@ Class scrlttr2 Warning: head of first page is 112.56204pt too high.
 (scrlttr2)              or you have to define a smaller
 (scrlttr2)              head of first page using \setkomavar.
 (scrlttr2)              Because of this too high head of first page
-(scrlttr2)              you've got an overfull \vbox message on input line 51.
+(scrlttr2)              you've got an overfull \vbox message on input line 52.
 
 Foot of first page
-! Missing number, treated as zero.
-<to be read again> 
-                   x
-<argument> x
-            xxx
-\setlength #1#2->#1 #2
-                      \relax 
-\tabularx ...um 0=`}\fi \setlength \TX@target {#1}
-                                                  \TX@typeout {Target width:...
 
-\scr@firstfoot@var ...ze { \begin {tabularx}{xxxx}
-                                                   \usekomavar {fromname} \u...
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
+Underfull \hbox (badness 10000) in alignment at lines 52--52
+[][][][] 
+ []
 
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
 
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+Overfull \hbox (1.888pt too wide) in paragraph at lines 52--52
+ []
+ []
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   x
-<argument> x
-            xxx
-\setlength #1#2->#1 #2
-                      \relax 
-\tabularx ...um 0=`}\fi \setlength \TX@target {#1}
-                                                  \TX@typeout {Target width:...
 
-\scr@firstfoot@var ...ze { \begin {tabularx}{xxxx}
-                                                   \usekomavar {fromname} \u...
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Package array Error:  Illegal pream-token (\usekomavar): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\@testpach ...se \z@ \@chclass \z@ \@preamerr \z@ 
-                                                  \fi \fi \fi \fi \fi \fi \f...
-<argument> \@testpach 
-                      \ifcase \@chclass \@classz \or \@classi \or \@classii ...
-
-\@tforloop ...nnil \expandafter \@fornoop \else #4
-                                                  \relax \expandafter \@tfor...
-
-\@tf@r ...else \@tforloop #2\@nil \@nil \@@ #1{#3}
-                                                  \fi 
-\@mkpream ...@classx \fi \@lastchclass \@chclass }
-                                                  \ifcase \@lastchclass \@ac...
-
-\@@array ...@width \z@ }\begingroup \@mkpream {#2}
-                                                  \xdef \@preamble {\noexpan...
-<inserted text>  \usekomavar 
-                             {fromname} \usekomavar {fromname2}&\multirow {4...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...mname} \usekomavar {fromname2}&
-                                                  \multirow {4}{*}{\usekomav...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\addvspace ...xaddvskip \fi \fi \else \@noitemerr 
-                                                  \fi 
-\@xcentercr ->\addvspace {-\parskip }
-                                     \@ifnextchar [\@icentercr \ignorespaces 
-<to be read again> 
-                   S
-\scr@bankverbindung@var ->Sparkasse Bochum\\S
-                                             WIFT/BIC--Code: WELADED1BOC\\IB...
-<argument> ...{\strut \usekomavar {bankverbindung}
-                                                  \strut }
-\multirow@vbox ...lse \vfill \fi \multirowsetup #3
-                                                  \if #1b\relax \else \vfill...
-
-\@xmultirow ...ox {#1}{}{\hbox {\strut #6\strut }}
-                                                  \else \if =#4\multirow@set...
-<inserted text> ...}{\usekomavar {bankverbindung}}
-                                                  &AGB&Geschäftsführer\\ \...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\addvspace ...xaddvskip \fi \fi \else \@noitemerr 
-                                                  \fi 
-\@xcentercr ->\addvspace {-\parskip }
-                                     \@ifnextchar [\@icentercr \ignorespaces 
-<to be read again> 
-                   I
-\scr@bankverbindung@var ...C--Code: WELADED1BOC\\I
-                                                  BAN:DE42\, 4305\, 0001\, 6...
-<argument> ...{\strut \usekomavar {bankverbindung}
-                                                  \strut }
-\multirow@vbox ...lse \vfill \fi \multirowsetup #3
-                                                  \if #1b\relax \else \vfill...
-
-\@xmultirow ...ox {#1}{}{\hbox {\strut #6\strut }}
-                                                  \else \if =#4\multirow@set...
-<inserted text> ...}{\usekomavar {bankverbindung}}
-                                                  &AGB&Geschäftsführer\\ \...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...{\usekomavar {bankverbindung}}&
-                                                  AGB&Geschäftsführer\\ \m...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...ekomavar {bankverbindung}}&AGB&
-                                                  Geschäftsführer\\ \multi...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\addvspace ...xaddvskip \fi \fi \else \@noitemerr 
-                                                  \fi 
-\@xcentercr ->\addvspace {-\parskip }
-                                     \@ifnextchar [\@icentercr \ignorespaces 
-<to be read again> 
-                   D
-\scr@stdid@var ->UST--ID:\\D
-                            E310784879
-<argument> \hbox {\strut \usekomavar {stdid}
-                                            \strut }
-\multirow@vbox ...lse \vfill \fi \multirowsetup #3
-                                                  \if #1b\relax \else \vfill...
-
-\@xmultirow ...ox {#1}{}{\hbox {\strut #6\strut }}
-                                                  \else \if =#4\multirow@set...
-<inserted text> ...row {2}{*}{\usekomavar {stdid}}
-                                                  &Gerichtsstand ist Bochum&...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...ow {2}{*}{\usekomavar {stdid}}&
-                                                  Gerichtsstand ist Bochum&J...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...did}}&Gerichtsstand ist Bochum&
-                                                  Jelena Oblogina\\ Erfüllu...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...logina\\ Erfüllungsort Bochum&
-                                                   \\ &Gelieferte Ware bleib...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...a\\ Erfüllungsort Bochum& \\ &
-                                                  Gelieferte Ware bleibt bis...
-
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...digen Bezahlung unser Eigentum&
-                                                   \\ 
-\TX@trial ...ma \expandafter \tabular \the \toks@ 
-                                                  \endtabular }\TX@ckpt \TX@...
-
-\TX@endtabularx ...ne \NC@find p{\TX@col@width }}}
-                                                  \loop \TX@arith \ifTX@ \TX...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Package tabularx Warning: X Columns too narrow (table too wide)
-(tabularx)                 on input line 51.
-
-
-! Package array Error:  Illegal pream-token (\usekomavar): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\@testpach ...se \z@ \@chclass \z@ \@preamerr \z@ 
-                                                  \fi \fi \fi \fi \fi \fi \f...
-<argument> \@testpach 
-                      \ifcase \@chclass \@classz \or \@classi \or \@classii ...
-
-\@tforloop ...nnil \expandafter \@fornoop \else #4
-                                                  \relax \expandafter \@tfor...
-
-\@tf@r ...else \@tforloop #2\@nil \@nil \@@ #1{#3}
-                                                  \fi 
-\@mkpream ...@classx \fi \@lastchclass \@chclass }
-                                                  \ifcase \@lastchclass \@ac...
-
-\@@array ...@width \z@ }\begingroup \@mkpream {#2}
-                                                  \xdef \@preamble {\noexpan...
-<inserted text>  \usekomavar 
-                             {fromname} \usekomavar {fromname2}&\multirow {4...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...mname} \usekomavar {fromname2}&
-                                                  \multirow {4}{*}{\usekomav...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\addvspace ...xaddvskip \fi \fi \else \@noitemerr 
-                                                  \fi 
-\@xcentercr ->\addvspace {-\parskip }
-                                     \@ifnextchar [\@icentercr \ignorespaces 
-<to be read again> 
-                   S
-\scr@bankverbindung@var ->Sparkasse Bochum\\S
-                                             WIFT/BIC--Code: WELADED1BOC\\IB...
-<argument> ...{\strut \usekomavar {bankverbindung}
-                                                  \strut }
-\multirow@vbox ...lse \vfill \fi \multirowsetup #3
-                                                  \if #1b\relax \else \vfill...
-
-\@xmultirow ...ox {#1}{}{\hbox {\strut #6\strut }}
-                                                  \else \if =#4\multirow@set...
-<inserted text> ...}{\usekomavar {bankverbindung}}
-                                                  &AGB&Geschäftsführer\\ \...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\addvspace ...xaddvskip \fi \fi \else \@noitemerr 
-                                                  \fi 
-\@xcentercr ->\addvspace {-\parskip }
-                                     \@ifnextchar [\@icentercr \ignorespaces 
-<to be read again> 
-                   I
-\scr@bankverbindung@var ...C--Code: WELADED1BOC\\I
-                                                  BAN:DE42\, 4305\, 0001\, 6...
-<argument> ...{\strut \usekomavar {bankverbindung}
-                                                  \strut }
-\multirow@vbox ...lse \vfill \fi \multirowsetup #3
-                                                  \if #1b\relax \else \vfill...
-
-\@xmultirow ...ox {#1}{}{\hbox {\strut #6\strut }}
-                                                  \else \if =#4\multirow@set...
-<inserted text> ...}{\usekomavar {bankverbindung}}
-                                                  &AGB&Geschäftsführer\\ \...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...{\usekomavar {bankverbindung}}&
-                                                  AGB&Geschäftsführer\\ \m...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...ekomavar {bankverbindung}}&AGB&
-                                                  Geschäftsführer\\ \multi...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\addvspace ...xaddvskip \fi \fi \else \@noitemerr 
-                                                  \fi 
-\@xcentercr ->\addvspace {-\parskip }
-                                     \@ifnextchar [\@icentercr \ignorespaces 
-<to be read again> 
-                   D
-\scr@stdid@var ->UST--ID:\\D
-                            E310784879
-<argument> \hbox {\strut \usekomavar {stdid}
-                                            \strut }
-\multirow@vbox ...lse \vfill \fi \multirowsetup #3
-                                                  \if #1b\relax \else \vfill...
-
-\@xmultirow ...ox {#1}{}{\hbox {\strut #6\strut }}
-                                                  \else \if =#4\multirow@set...
-<inserted text> ...row {2}{*}{\usekomavar {stdid}}
-                                                  &Gerichtsstand ist Bochum&...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...ow {2}{*}{\usekomavar {stdid}}&
-                                                  Gerichtsstand ist Bochum&J...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...did}}&Gerichtsstand ist Bochum&
-                                                  Jelena Oblogina\\ Erfüllu...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...logina\\ Erfüllungsort Bochum&
-                                                   \\ &Gelieferte Ware bleib...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...a\\ Erfüllungsort Bochum& \\ &
-                                                  Gelieferte Ware bleibt bis...
-
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-<template> ...ox \z@ \hskip \col@sep \endtemplate 
-                                                  
-<inserted text> ...digen Bezahlung unser Eigentum&
-                                                   \\ 
-\TX@endtabularx ...ndafter \TX@target \the \toks@ 
-                                                  \csname endtabular*\endcsn...
-
-\scr@firstfoot@var ...Eigentum& \\ \end {tabularx}
-                                                   }
-<argument> ...th}\noindent \usekomavar {firstfoot}
-                                                  }}
-\rlap #1->\hb@xt@ \z@ {#1
-                         \hss }
-\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
-                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
-
-\@firstheadfootfield ...usekomavar {firstfoot}}}}}
-                                                  \else \typeout {No foot at...
-
-\opening ...dent \@foldmarks \@firstheadfootfield 
-                                                  \@addrfield \@locfield \if...
-l.51 \opening{}
-               
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Overfull \hbox (406.29688pt too wide) in alignment at lines 51--51
-[] 
  []
 
 Address (backaddress, addressee)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 51.
+(Font)              <12> on input line 52.
 Location field: empty
 Title: no
 Subject: before opening
@@ -1912,12 +937,12 @@ PGFPlots: reading {Rechnung.csv}
 
 ] (RechnungsTemplate.aux) ) 
 Here is how much of TeX's memory you used:
- 23168 strings out of 427834
- 600652 string characters out of 3152470
+ 23154 strings out of 427834
+ 600461 string characters out of 3152470
  860865 words of memory out of 3000000
- 26749 multiletter control sequences out of 15000+200000
- 29120 words of font info for 44 fonts, out of 3000000 for 9000
+ 26739 multiletter control sequences out of 15000+200000
+ 21907 words of font info for 37 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 82i,14n,128p,745b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 82i,13n,128p,745b,481s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on RechnungsTemplate.pdf (1 page).
