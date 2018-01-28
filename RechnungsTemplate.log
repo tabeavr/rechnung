@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.11.2)  28 JAN 2018 17:16
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2017.11.2)  28 JAN 2018 17:39
 entering extended mode
 **./RechnungsTemplate.tex
 (RechnungsTemplate.tex
@@ -612,95 +612,199 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable.code.
 tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable.colty
-pe.code.tex"))) (Absender.tex) (RechnungsTemplate.aux)
+pe.code.tex"))) (AbsenderCCD.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+
+Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supp
+orted.
+
+))
+! Undefined control sequence.
+<recently read> \epstopdfDeclareGraphicsRule 
+                                             
+l.2 \epstopdfDeclareGraphicsRule
+                                {.tif}{png}{.png}{convert #1 \OutputFile}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+\GenericError  ...                                
+                                                  \endgroup 
+<to be read again> 
+                   .
+l.2 \epstopdfDeclareGraphicsRule{.
+                                  tif}{png}{.png}{convert #1 \OutputFile}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.2 ...lareGraphicsRule{.tif}{png}{.png}{convert #
+                                                  1 \OutputFile}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+l.2 ...ule{.tif}{png}{.png}{convert #1 \OutputFile
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG
+,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA
+,.tga,.gif,.GIF,.TIF,.tiff,.TIFF,,.tif]
+(grfext)             \AppendGraphicsExtensions on input line 3.
+) (RechnungsTemplate.aux)
 \openout1 = `RechnungsTemplate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 Class scrlttr2 Info: no date found for language `american'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `australien'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `british'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `canadian'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `newzealand'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `UKenglish'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `ukenglish'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `USenglish'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `usenglish'
-(scrlttr2)           --> skipped on input line 41.
-Package scrbase Info: activating ngerman \yourrefname on input line 41.
-Package scrbase Info: activating ngerman \yourmailname on input line 41.
-Package scrbase Info: activating ngerman \myrefname on input line 41.
-Package scrbase Info: activating ngerman \customername on input line 41.
-Package scrbase Info: activating ngerman \invoicename on input line 41.
-Package scrbase Info: activating ngerman \subjectname on input line 41.
-Package scrbase Info: activating ngerman \headfromname on input line 41.
-Package scrbase Info: activating ngerman \datename on input line 41.
-Package scrbase Info: activating ngerman \phonename on input line 41.
-Package scrbase Info: activating ngerman \mobilephonename on input line 41.
-Package scrbase Info: activating ngerman \faxname on input line 41.
-Package scrbase Info: activating ngerman \emailname on input line 41.
-Package scrbase Info: activating ngerman \wwwname on input line 41.
-Package scrbase Info: activating ngerman \bankname on input line 41.
+(scrlttr2)           --> skipped on input line 42.
+Package scrbase Info: activating ngerman \yourrefname on input line 42.
+Package scrbase Info: activating ngerman \yourmailname on input line 42.
+Package scrbase Info: activating ngerman \myrefname on input line 42.
+Package scrbase Info: activating ngerman \customername on input line 42.
+Package scrbase Info: activating ngerman \invoicename on input line 42.
+Package scrbase Info: activating ngerman \subjectname on input line 42.
+Package scrbase Info: activating ngerman \headfromname on input line 42.
+Package scrbase Info: activating ngerman \datename on input line 42.
+Package scrbase Info: activating ngerman \phonename on input line 42.
+Package scrbase Info: activating ngerman \mobilephonename on input line 42.
+Package scrbase Info: activating ngerman \faxname on input line 42.
+Package scrbase Info: activating ngerman \emailname on input line 42.
+Package scrbase Info: activating ngerman \wwwname on input line 42.
+Package scrbase Info: activating ngerman \bankname on input line 42.
 Class scrlttr2 Info: no date found for language `german'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `austrian'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `naustrian'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `swissgerman'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `nswissgerman'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `acadian'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `canadien'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `francais'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `french'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `italian'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `spanish'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `croatian'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `dutch'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `finnish'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `norsk'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `swedish'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `polish'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `czech'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: no date found for language `slovak'
-(scrlttr2)           --> skipped on input line 41.
+(scrlttr2)           --> skipped on input line 42.
 Class scrlttr2 Info: trying to activate captions and date
-(scrlttr2)           of language `ngerman' on input line 41.
+(scrlttr2)           of language `ngerman' on input line 42.
 Class scrlttr2 Info: used language is `ngerman'.
 (scrlttr2)           Supported languages are: `english', `UKenglish',
 (scrlttr2)           `ukenglish', `british', `american', `USenglish',
@@ -710,16 +814,142 @@ Class scrlttr2 Info: used language is `ngerman'.
 (scrlttr2)           `acadian', `canadien', `francais', `french', 
 (scrlttr2)           `dutch', `italian', `spanish', `polish',
 (scrlttr2)           `croatian', `finnish', `norsk', `swedish',
-(scrlttr2)           `czech', `slovak' on input line 41.
-
-ABD: EveryShipout initializing macros
+(scrlttr2)           `czech', `slovak' on input line 42.
+ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
+[1
+
+]
 Foldmarks: no
 Head of first page
-File: logo.jpg Graphic file (type QTm)
-<use  "logo.jpg" >
+! Unable to load picture or PDF file 'logoccd.tif'.
+<to be read again> 
+                   }
+\G@measure@QTm ...Xquote \space }\fi \piccommand }
+                                                  \dimen 0=\wd 0 \dimen 2=\h...
+
+\Gin@setfile ...se #1\fi \endcsname {\Gin@base #2}
+                                                  \else \Gin@nosize {#3}\fi ...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+\scr@firsthead@var ->\usekomavar {fromlogo}
+                                            \baselineskip \begin {flushright...
+<argument> \noindent \usekomavar {firsthead}
+                                            \vskip \z@ \@plus .00001fil
+\\@savevbox ...4#5#6->\begingroup \vbox to #2{#1#3
+                                                  }\if@savevbox@warning \@sa...
+<argument> ...t page}{firstheadvpos}{\setkomavar }
+                                                  }
+\rlap #1->\hb@xt@ \z@ {#1
+                         \hss }
+\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
+                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
+
+\@firstheadfootfield ...headvpos}{\setkomavar }}}}
+                                                  \vskip -\useplength {first...
+
+\opening ...dent \@foldmarks \@firstheadfootfield 
+                                                  \@addrfield \@locfield \if...
+l.53 \opening{}
+               
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+\GenericError  ...                                
+                                                  \endgroup 
+\Gscale@div ...ror {graphics}{Division by 0}\@eha 
+                                                  \dimen@ #2\fi \edef \@temp...
+
+\Gin@req@sizes ...lex \Gin@@ewidth \Gin@nat@width 
+                                                  \let \Gin@scaley \Gin@excl...
+
+\Gin@setfile ...@width -\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+\scr@firsthead@var ->\usekomavar {fromlogo}
+                                            \baselineskip \begin {flushright...
+<argument> \noindent \usekomavar {firsthead}
+                                            \vskip \z@ \@plus .00001fil
+\\@savevbox ...4#5#6->\begingroup \vbox to #2{#1#3
+                                                  }\if@savevbox@warning \@sa...
+<argument> ...t page}{firstheadvpos}{\setkomavar }
+                                                  }
+\rlap #1->\hb@xt@ \z@ {#1
+                         \hss }
+\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
+                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
+
+\@firstheadfootfield ...headvpos}{\setkomavar }}}}
+                                                  \vskip -\useplength {first...
+
+\opening ...dent \@foldmarks \@firstheadfootfield 
+                                                  \@addrfield \@locfield \if...
+l.53 \opening{}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: logoccd.tif Graphic file (type QTm)
+<use  "logoccd.tif" >
+! Unable to load picture or PDF file 'logoccd.tif'.
+<to be read again> 
+                   \GXT@clipend 
+<argument> ...=\z@ \else \egroup \fi \GXT@clipend 
+                                                  \fi 
+\Gscale@box ...Gscale@y {#2}\setbox \z@ \hbox {{#3
+                                                  }}\setbox \tw@ \hbox {\Gsc...
+
+\XeTeX@scaleinclude ...roup \fi \GXT@clipend \fi }
+                                                  }
+\Ginclude@QTm ...xt \else \XeTeX@scaleinclude {#1}
+                                                  \fi 
+\Gin@setfile ...\csname Ginclude@#1\endcsname {#3}
+                                                  }\dp \z@ \z@ \ht \z@ \Gin@...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+\scr@firsthead@var ->\usekomavar {fromlogo}
+                                            \baselineskip \begin {flushright...
+<argument> \noindent \usekomavar {firsthead}
+                                            \vskip \z@ \@plus .00001fil
+\\@savevbox ...4#5#6->\begingroup \vbox to #2{#1#3
+                                                  }\if@savevbox@warning \@sa...
+<argument> ...t page}{firstheadvpos}{\setkomavar }
+                                                  }
+\rlap #1->\hb@xt@ \z@ {#1
+                         \hss }
+\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
+                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
+
+\@firstheadfootfield ...headvpos}{\setkomavar }}}}
+                                                  \vskip -\useplength {first...
+
+\opening ...dent \@foldmarks \@firstheadfootfield 
+                                                  \@addrfield \@locfield \if...
+l.53 \opening{}
+               
+The requested image couldn't be read because
+it was not a recognized image format.
+
 ! Missing number, treated as zero.
 <to be read again> 
                    \def 
@@ -749,7 +979,7 @@ File: logo.jpg Graphic file (type QTm)
 
 \opening ...dent \@foldmarks \@firstheadfootfield 
                                                   \@addrfield \@locfield \if...
-l.52 \opening{}
+l.53 \opening{}
                
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -784,7 +1014,7 @@ look up `weird error' in the index to The TeXbook.)
 
 \opening ...dent \@foldmarks \@firstheadfootfield 
                                                   \@addrfield \@locfield \if...
-l.52 \opening{}
+l.53 \opening{}
                
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -793,39 +1023,163 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 53.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 52.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 52.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 53.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 52.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 53.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 52.
+(Font)              <10.95> on input line 53.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <8> on input line 53.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 53.
 
-Overfull \vbox (100.56204pt too high) detected at line 52
+Overfull \vbox (40.62471pt too high) detected at line 53
  []
 
-File: logo.jpg Graphic file (type QTm)
-<use  "logo.jpg" >
+! Unable to load picture or PDF file 'logoccd.tif'.
+<to be read again> 
+                   }
+\G@measure@QTm ...Xquote \space }\fi \piccommand }
+                                                  \dimen 0=\wd 0 \dimen 2=\h...
+
+\Gin@setfile ...se #1\fi \endcsname {\Gin@base #2}
+                                                  \else \Gin@nosize {#3}\fi ...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+\scr@firsthead@var ->\usekomavar {fromlogo}
+                                            \baselineskip \begin {flushright...
+<argument> \noindent \usekomavar {firsthead}
+                                            \vskip \z@ \@plus .00001fil
+\\@savevbox ...@warningfalse \setbox \z@ \vbox {#3
+                                                  }\setlength {\@tempdima }{...
+<argument> ...t page}{firstheadvpos}{\setkomavar }
+                                                  }
+\rlap #1->\hb@xt@ \z@ {#1
+                         \hss }
+\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
+                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
+
+\@firstheadfootfield ...headvpos}{\setkomavar }}}}
+                                                  \vskip -\useplength {first...
+
+\opening ...dent \@foldmarks \@firstheadfootfield 
+                                                  \@addrfield \@locfield \if...
+l.53 \opening{}
+               
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+\GenericError  ...                                
+                                                  \endgroup 
+\Gscale@div ...ror {graphics}{Division by 0}\@eha 
+                                                  \dimen@ #2\fi \edef \@temp...
+
+\Gin@req@sizes ...lex \Gin@@ewidth \Gin@nat@width 
+                                                  \let \Gin@scaley \Gin@excl...
+
+\Gin@setfile ...@width -\Gin@llx bp\Gin@req@sizes 
+                                                  \expandafter \ifx \csname ...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+\scr@firsthead@var ->\usekomavar {fromlogo}
+                                            \baselineskip \begin {flushright...
+<argument> \noindent \usekomavar {firsthead}
+                                            \vskip \z@ \@plus .00001fil
+\\@savevbox ...@warningfalse \setbox \z@ \vbox {#3
+                                                  }\setlength {\@tempdima }{...
+<argument> ...t page}{firstheadvpos}{\setkomavar }
+                                                  }
+\rlap #1->\hb@xt@ \z@ {#1
+                         \hss }
+\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
+                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
+
+\@firstheadfootfield ...headvpos}{\setkomavar }}}}
+                                                  \vskip -\useplength {first...
+
+\opening ...dent \@foldmarks \@firstheadfootfield 
+                                                  \@addrfield \@locfield \if...
+l.53 \opening{}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: logoccd.tif Graphic file (type QTm)
+<use  "logoccd.tif" >
+! Unable to load picture or PDF file 'logoccd.tif'.
+<to be read again> 
+                   \GXT@clipend 
+<argument> ...=\z@ \else \egroup \fi \GXT@clipend 
+                                                  \fi 
+\Gscale@box ...Gscale@y {#2}\setbox \z@ \hbox {{#3
+                                                  }}\setbox \tw@ \hbox {\Gsc...
+
+\XeTeX@scaleinclude ...roup \fi \GXT@clipend \fi }
+                                                  }
+\Ginclude@QTm ...xt \else \XeTeX@scaleinclude {#1}
+                                                  \fi 
+\Gin@setfile ...\csname Ginclude@#1\endcsname {#3}
+                                                  }\dp \z@ \z@ \ht \z@ \Gin@...
+
+\Ginclude@graphics ...sname {\Gin@base \Gin@ext }}
+                                                  \fi \endgroup 
+\Gin@ii ...eys {Gin}{#1}\Gin@esetsize \the \toks@ 
+                                                  \endgroup \fi 
+\scr@firsthead@var ->\usekomavar {fromlogo}
+                                            \baselineskip \begin {flushright...
+<argument> \noindent \usekomavar {firsthead}
+                                            \vskip \z@ \@plus .00001fil
+\\@savevbox ...@warningfalse \setbox \z@ \vbox {#3
+                                                  }\setlength {\@tempdima }{...
+<argument> ...t page}{firstheadvpos}{\setkomavar }
+                                                  }
+\rlap #1->\hb@xt@ \z@ {#1
+                         \hss }
+\vb@t@z #1->{\setbox \z@ \vbox to\z@ {#1
+                                        \vss }\setparsizes {\z@ }{\z@ }{\z@ ...
+
+\@firstheadfootfield ...headvpos}{\setkomavar }}}}
+                                                  \vskip -\useplength {first...
+
+\opening ...dent \@foldmarks \@firstheadfootfield 
+                                                  \@addrfield \@locfield \if...
+l.53 \opening{}
+               
+The requested image couldn't be read because
+it was not a recognized image format.
+
 ! Missing number, treated as zero.
 <to be read again> 
                    \def 
@@ -855,7 +1209,7 @@ File: logo.jpg Graphic file (type QTm)
 
 \opening ...dent \@foldmarks \@firstheadfootfield 
                                                   \@addrfield \@locfield \if...
-l.52 \opening{}
+l.53 \opening{}
                
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -890,7 +1244,7 @@ look up `weird error' in the index to The TeXbook.)
 
 \opening ...dent \@foldmarks \@firstheadfootfield 
                                                   \@addrfield \@locfield \if...
-l.52 \opening{}
+l.53 \opening{}
                
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -900,32 +1254,32 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Class scrlttr2 Warning: head of first page is 112.56204pt too high.
+Class scrlttr2 Warning: head of first page is 52.62471pt too high.
 (scrlttr2)              You have to change `firstheadvpos'
 (scrlttr2)              or you have to define a smaller
 (scrlttr2)              head of first page using \setkomavar.
 (scrlttr2)              Because of this too high head of first page
-(scrlttr2)              you've got an overfull \vbox message on input line 52.
+(scrlttr2)              you've got an overfull \vbox message on input line 53.
 
 Foot of first page
 
-Underfull \hbox (badness 10000) in alignment at lines 52--52
+Underfull \hbox (badness 10000) in alignment at lines 53--53
 [][][][] 
  []
 
 
-Overfull \hbox (1.888pt too wide) in paragraph at lines 52--52
+Overfull \hbox (1.888pt too wide) in paragraph at lines 53--53
  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 Address (backaddress, addressee)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <12> on input line 53.
 Location field: empty
 Title: no
 Subject: before opening
@@ -934,15 +1288,15 @@ PGFPlots: reading {Rechnung.csv}
 [1
 
 
-
-] (RechnungsTemplate.aux) ) 
+] (RechnungsTemplate.aux) )
+(\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 23154 strings out of 427834
- 600461 string characters out of 3152470
+ 23664 strings out of 427834
+ 608948 string characters out of 3152470
  860865 words of memory out of 3000000
- 26739 multiletter control sequences out of 15000+200000
+ 27213 multiletter control sequences out of 15000+200000
  21907 words of font info for 37 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  82i,13n,128p,745b,481s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on RechnungsTemplate.pdf (1 page).
+Output written on RechnungsTemplate.pdf (2 pages).

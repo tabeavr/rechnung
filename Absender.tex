@@ -1,20 +1,32 @@
 %%Sender
-\newkomavar{stdid}
-\setkomavar{stdid}{UST--ID:\\DE310784879} %%SteuerID
+\setkomavar{fromname}{} %%Firmenname
 \newkomavar{fromname2}
-\setkomavar{fromname2}{UG (haftungsbeschränkt)}
-\setkomavar{fromname}{CCD Car Diagnostics}
+\setkomavar{fromname2}{} %%Firmenzusatz
 \setkomavar{fromaddress}{Herner Str.299\\Gebäude B29\\44809 Bochum}
-\setkomavar{fromphone}{+49\, (0)234\, 934\, 511\, 60}
-\setkomavar{fromemail}{info@car-diagnostics.eu}
-\setkomavar{fromurl}{www.car-diagnostics.eu}
+\setkomavar{fromphone}{+49\, (0)234\,}
+\setkomavar{fromemail}{} %E-Mail
+\setkomavar{fromurl}{} %Internetseite
 \setkomavar{signature}{g}
 \setkomavar{place}{Bochum}
 \setkomavar{date}{\today}
-\setkomavar{fromlogo}{\includegraphics[width =0.5\textwidth]{logo.jpg}}
+\setkomavar{fromlogo}{\includegraphics[width =0.5\textwidth]{}} %Logo
 \setkomavar{subject}{\textbf{\large{Rechnungsnr.\, }}}
-\newkomavar{bankverbindung}
-\setkomavar{bankverbindung}{Sparkasse Bochum\\SWIFT/BIC--Code: WELADED1BOC\\IBAN:DE42\, 4305\, 0001\, 6047\, 84}
+
+%%Fußzeile
+\setlength{\tabcolsep}{0.2cm}
+
+\setkomavar{firstfoot}[]{% %%%Der muss angepasst werden!!! je nach firma
+\scriptsize{
+\begin{tabularx}{\textwidth}{llll}
+\multicolumn{4}{l}{\normalsize{Gelieferte Ware bleibt bis zur vollständigen Bezahlung unser Eigentum.}}\\
+\multicolumn{4}{l}{ }\\
+\usekomavar{fromname} &Bankverbindung&AGB&Geschäftsführer\\
+\usekomavar{fromname2} & #1 &Gerichtsstand ist Bochum&#2\\ %#1 Bank, #2 Geschäftsführer Name
+Steuer--Nr.&SWIFT/BIC--Code: #3&Erfüllungsort Bochum& \\ %#3 Bix
+UST--ID: #4 &IBAN: #5& & \\ %#4 Umsatzsteuer id, #5 Iban der form Dexx\, xxx\,
+\end{tabularx}
+}
+}
 
 
 %Trennzeichen für die Rücksendeadresee
@@ -43,21 +55,7 @@
 }
 
 
-%%Fußzeile
-\setlength{\tabcolsep}{0.2cm}
 
-\setkomavar{firstfoot}[]{%
-\scriptsize{
-\begin{tabularx}{\textwidth}{llll}
-\multicolumn{4}{l}{\normalsize{Gelieferte Ware bleibt bis zur vollständigen Bezahlung unser Eigentum.}}\\
-\multicolumn{4}{l}{ }\\
-CCD Car Diagnostics &Bankverbindung&AGB&Geschäftsführer\\
-UG (haftungsbeschränkt)&Sparkasse Bochum&Gerichtsstand ist Bochum&Jelena Oblogina\\
-Steuer--Nr.&SWIFT/BIC--Code: WELADED1BOC&Erfüllungsort Bochum& \\
-UST--ID: DE310784879 &IBAN: DE42\, 4305\, 0001\, 0001\, 6047\, 84& & \\
-\end{tabularx}
-}
-}
 %%Empfänger
 \ifdefined\firma
 \newcommand{\empfaenger}{\small{

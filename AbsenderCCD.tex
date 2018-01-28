@@ -1,0 +1,88 @@
+\usepackage{epstopdf}
+\epstopdfDeclareGraphicsRule{.tif}{png}{.png}{convert #1 \OutputFile}
+\AppendGraphicsExtensions{.tif}
+
+%%Sender
+\newkomavar{stdid}
+\setkomavar{stdid}{UST--ID:\\DE310784879} %%SteuerID
+\newkomavar{fromname2}
+\setkomavar{fromname2}{UG (haftungsbeschränkt)}
+\setkomavar{fromname}{CCD Car Diagnostics}
+\setkomavar{fromaddress}{Herner Str.299\\Gebäude B29\\44809 Bochum}
+\setkomavar{fromphone}{+49\, (0)234\, 934\, 511\, 60}
+\setkomavar{fromemail}{info@car-diagnostics.eu}
+\setkomavar{fromurl}{www.car-diagnostics.eu}
+\setkomavar{signature}{g}
+\setkomavar{place}{Bochum}
+\setkomavar{date}{\today}
+\setkomavar{fromlogo}{\includegraphics[width =0.5\textwidth]{logoccd.tif}}
+\setkomavar{subject}{\textbf{\large{Rechnungsnr.\, }}}
+\newkomavar{bankverbindung}
+\setkomavar{bankverbindung}{Sparkasse Bochum\\SWIFT/BIC--Code: WELADED1BOC\\IBAN:DE42\, 4305\, 0001\, 6047\, 84}
+
+
+%Trennzeichen für die Rücksendeadresee
+\setkomavar{backaddressseparator}{ - }
+\setkomavar{backaddress}{\usekomavar{fromaddress}}
+
+\newcommand{\absender}[0]{\small{
+\begin{tabular}{l} %so ist alles linksbündig, wird aber rechts dargestellt
+\textbf{\usekomavar{fromname}}\\
+\textbf{\usekomavar{fromname2}}\\
+\usekomavar{fromaddress}\\
+\rule{0pt}{1.2\baselineskip} \\
+\usekomavar{fromphone}\\
+\usekomavar{fromemail}\\
+\usekomavar{fromurl}\\
+\end{tabular}}
+}
+
+%%Kopzeile
+\setkomavar{firsthead}[]{%
+\usekomavar{fromlogo}
+\baselineskip
+\begin{flushright}
+\absender
+\end{flushright}
+}
+
+
+%%Fußzeile
+\setlength{\tabcolsep}{0.2cm}
+
+\setkomavar{firstfoot}[]{%
+\scriptsize{
+\begin{tabularx}{\textwidth}{llll}
+\multicolumn{4}{l}{\normalsize{Gelieferte Ware bleibt bis zur vollständigen Bezahlung unser Eigentum.}}\\
+\multicolumn{4}{l}{ }\\
+CCD Car Diagnostics &Bankverbindung&AGB&Geschäftsführer\\
+UG (haftungsbeschränkt)&Sparkasse Bochum&Gerichtsstand ist Bochum&Jelena Oblogina\\
+Steuer--Nr.&SWIFT/BIC--Code: WELADED1BOC&Erfüllungsort Bochum& \\
+UST--ID: DE310784879 &IBAN: DE42\, 4305\, 0001\, 0001\, 6047\, 84& & \\
+\end{tabularx}
+}
+}
+%%Empfänger
+\ifdefined\firma
+\newcommand{\empfaenger}{\small{
+\name \\
+\strasse \\
+\ort \\
+\smallskip
+\textbf{Lieferadresse:}\\
+\textbf{\firma}\\
+\firmastrasse \\
+\firmaort \\
+\medskip
+GERMANY
+}
+}
+\else
+ \newcommand{\empfaenger}{\small{
+name\\
+strasse\\
+ort\\
+GERMANY
+}
+}
+\fi

@@ -1,0 +1,82 @@
+%%Sender
+\setkomavar{fromname}{nerd force 1}
+\newkomavar{fromname2}
+\setkomavar{fromname2}{UG (haftungsbeschränkt)}
+\setkomavar{fromaddress}{Herner Str.299\\Gebäude B29\\44809 Bochum}
+\setkomavar{fromphone}{+49\, (0)234\, 934\, 511\, 60}
+\setkomavar{fromemail}{}
+\setkomavar{fromurl}{}
+\setkomavar{signature}{g}
+\setkomavar{place}{Bochum}
+\setkomavar{date}{\today}
+%\setkomavar{fromlogo}{\includegraphics[width =0.5\textwidth]{logoccd.jpg}}
+\setkomavar{subject}{\textbf{\large{Rechnungsnr.\, }}}
+
+%%Fußzeile
+\setlength{\tabcolsep}{0.2cm}
+
+\setkomavar{firstfoot}[]{% %%%Der muss angepasst werden!!! je nach firma
+\scriptsize{
+\begin{tabularx}{\textwidth}{llll}
+\multicolumn{4}{l}{\normalsize{Gelieferte Ware bleibt bis zur vollständigen Bezahlung unser Eigentum.}}\\
+\multicolumn{4}{l}{ }\\
+\usekomavar{fromname} &Bankverbindung&AGB&Geschäftsführer\\
+\usekomavar{fromname2} & #1 &Gerichtsstand ist Bochum&#2\\ %#1 Bank, #2 Geschäftsführer Name
+Steuer--Nr.&SWIFT/BIC--Code: #3&Erfüllungsort Bochum& \\ %#3 Bix
+UST--ID: #4 &IBAN: #5& & \\ %#4 Umsatzsteuer id, #5 Iban der form Dexx\, xxx\,
+\end{tabularx}
+}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%nichts mehr ändern!!!!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Trennzeichen für die Rücksendeadresee
+\setkomavar{backaddressseparator}{ - }
+\setkomavar{backaddress}{\usekomavar{fromaddress}}
+
+\newcommand{\absender}[0]{\small{
+\begin{tabular}{l} %so ist alles linksbündig, wird aber rechts dargestellt
+\textbf{\usekomavar{fromname}}\\
+\textbf{\usekomavar{fromname2}}\\
+\usekomavar{fromaddress}\\
+\rule{0pt}{1.2\baselineskip} \\
+\usekomavar{fromphone}\\
+\usekomavar{fromemail}\\
+\usekomavar{fromurl}\\
+\end{tabular}}
+}
+
+%%Kopzeile
+\setkomavar{firsthead}[]{%
+\usekomavar{fromlogo}
+\baselineskip
+\begin{flushright}
+\absender
+\end{flushright}
+}
+
+%%Empfänger
+\ifdefined\firma
+\newcommand{\empfaenger}{\small{
+\name \\
+\strasse \\
+\ort \\
+\smallskip
+\textbf{Lieferadresse:}\\
+\textbf{\firma}\\
+\firmastrasse \\
+\firmaort \\
+\medskip
+GERMANY
+}
+}
+\else
+ \newcommand{\empfaenger}{\small{
+name\\
+strasse\\
+ort\\
+GERMANY
+}
+}
+\fi
